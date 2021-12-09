@@ -1,9 +1,9 @@
-# LunaChatBot
+# E.D.I.T.H
 Just another Telegram AI chat bot written in Python using Pyrogram.
 
-A public running instance can be found on telegram as [@LunaChatBot](https://t.me/LunaChatBot).
+Based on [LunaChatBot](https://github.com/TheHamkerCat/LunaChatBot).
 
-<img src="https://hamker.me/knplfa4_luna.jpg" width="200" align="right">
+A public running instance can be found on telegram as [@EdithAiBot](https://t.me/EdithAiBot).
 
 ## Requirements
 
@@ -14,30 +14,30 @@ A public running instance can be found on telegram as [@LunaChatBot](https://t.m
 ## Installation
 
 ```sh
-$ git clone https://github.com/thehamkercat/LunaChatBot
-$ cd LunaChatBot
+$ git clone https://github.com/etahamad/edith
+$ cd edith
 $ pip3 install -U -r requirements.txt
 $ cp sample_config.py config.py
 ```
 Edit `config.py` with your own values.
 ```sh
-$ python3 luna.py
+$ python3 edith.py
 ```
 
 
 ## Heroku
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/TheHamkerCat/LunaChatBot/tree/master)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/etahamad/edith/tree/master)
 
 
 ## Docker
 
 Follow Installation Guide.
 ```sh
-$ sudo docker build -t luna .
-$ sudo docker run luna
+$ sudo docker build -t edith .
+$ sudo docker run edith
 ```
 
 ## Note
 
-- For Any Help, Ask Here [ProgrammersHub](https://t.me/PatheticProgrammers)
+- For Any Help, Ask Here [ProgrammersHub (Luna's devs)](https://t.me/PatheticProgrammers) or [Omar (E.D.I.T.H's dev)](https://t.me/etahamad)
